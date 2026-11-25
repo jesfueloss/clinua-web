@@ -17,3 +17,15 @@ details{border-bottom:1px solid var(--bd);padding:14px 0}summary{font-weight:600
 footer{background:var(--tx);color:#cbd5e1;padding:32px 0;font-size:.9rem}footer a{color:#e2e8f0;margin-right:16px}
 .legal{max-width:800px;padding:48px 20px}.cta{text-align:center}.ph{background:#fef3c7;padding:0 4px}
 @media(max-width:720px){nav a:not(.btn){display:none}}
+h1,h2,h3{letter-spacing:-.02em}.hero{padding:80px 0 72px;background:radial-gradient(1200px 500px at 80% -10%,#ccfbf1,transparent),linear-gradient(180deg,#f0fdfa,#fff)}
+.hg{display:grid;grid-template-columns:1.1fr 1fr;gap:48px;align-items:center}.hero h1 em{font-style:normal;color:var(--p)}
+.pill{display:inline-block;background:#ccfbf1;color:var(--pd);border-radius:99px;padding:4px 12px;font-size:.85rem;font-weight:600;margin-bottom:14px}
+.ctas{display:flex;gap:12px;flex-wrap:wrap}.badges{list-style:none;padding:0;margin:22px 0 0;display:flex;flex-wrap:wrap;gap:8px 18px;color:var(--mu);font-size:.9rem}
+.mock{background:#fff;border:1px solid var(--bd);border-radius:16px;box-shadow:0 30px 60px -20px #0f766e40,0 8px 20px -8px #0002;overflow:hidden;transform:rotate(1deg)}
+.mbar{display:flex;align-items:center;gap:6px;padding:10px 14px;background:var(--bg);border-bottom:1px solid var(--bd);font-size:.8rem;color:var(--mu)}.mbar i{width:10px;height:10px;border-radius:50%;background:#cbd5e1}.mbar span{margin-left:8px}
+.mbody{padding:16px;display:grid;gap:10px;font-size:.88rem}.ev{border-left:4px solid;border-radius:8px;padding:10px 12px;background:#f8fafc}.ev b{margin-right:8px}
+.ev.a{border-color:#0f766e;background:#f0fdfa}.ev.b{border-color:#6366f1;background:#eef2ff}.ev.c{border-color:#f59e0b;background:#fffbeb}
+.tag{float:right;background:#0f766e;color:#fff;border-radius:6px;padding:0 8px;font-size:.75rem}.inv{display:flex;justify-content:space-between;border:1px dashed var(--bd);border-radius:8px;padding:10px 12px}.ok{color:#15803d;font-weight:600}
+.c{transition:transform .15s,box-shadow .15s}.c:hover{transform:translateY(-3px);box-shadow:0 12px 30px -12px #0f766e40}.c h3{color:var(--pd)}
+.band{background:linear-gradient(120deg,#0f766e,#115e59);color:#e6fffa}.band h2{color:#fff}.btn.w2{background:#fff;color:var(--pd)!important}
+@media(max-width:860px){.hg{grid-template-columns:1fr}.mock{transform:none}}
