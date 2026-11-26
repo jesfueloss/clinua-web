@@ -34,3 +34,9 @@ h1,h2,h3{letter-spacing:-.02em}.hero{padding:80px 0 72px;background:radial-gradi
 
 .bn{white-space:nowrap}.bn span{color:var(--p)}
 .pr.solo{grid-template-columns:1fr;max-width:420px;margin-left:auto;margin-right:auto}.pr .pill{display:inline-block;width:auto}
+.form{max-width:640px;display:grid;gap:14px}.form .fr{display:grid;gap:6px}.form .f2{display:grid;gap:14px;grid-template-columns:1fr 1fr}
+.form label{font-weight:600;font-size:.95rem}.form input,.form select,.form textarea{font:inherit;padding:10px 12px;border:1px solid var(--bd);border-radius:8px;background:#fff;color:var(--tx);width:100%;box-sizing:border-box}
+.form input:focus,.form select:focus,.form textarea:focus{outline:2px solid var(--p);outline-offset:1px}
+.form .chk{font-weight:400;display:flex;gap:8px;align-items:flex-start}.form .chk input{width:auto;margin-top:4px}
+.form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.fmsg:empty{display:none}.fmsg.ok{color:var(--pd)}.fmsg.err{color:#b91c1c}
+.form button{justify-self:start}@media(max-width:600px){.form .f2{grid-template-columns:1fr}}

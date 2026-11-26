@@ -1,4 +1,4 @@
-<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clinua · Software de gestión para fisioterapeutas, psicólogos y profesionales sanitarios autónomos</title><meta name="description" content="Agenda, reserva online, historia clínica y facturas con VeriFactu para profesionales sanitarios autónomos. 21 €/mes. Prueba 7 días gratis."><link rel="canonical" href="https://www.clinua.com/"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="alternate icon" href="favicon.ico"><link rel="stylesheet" href="styles.css?v=9">
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Clinua · Software de gestión para fisioterapeutas, psicólogos y profesionales sanitarios autónomos</title><meta name="description" content="Agenda, reserva online, historia clínica y facturas con VeriFactu para profesionales sanitarios autónomos. 21 €/mes. Prueba 7 días gratis."><link rel="canonical" href="https://www.clinua.com/"><link rel="icon" href="favicon.svg" type="image/svg+xml"><link rel="alternate icon" href="favicon.ico"><link rel="stylesheet" href="styles.css?v=10">
 <meta property="og:type" content="website"><meta property="og:locale" content="es_ES"><meta property="og:title" content="Clinua · Tu consulta, sin papeleo"><meta property="og:description" content="Agenda, historia clínica, facturación con VeriFactu y RGPD en un solo programa."><meta property="og:url" content="https://www.clinua.com/"><meta property="og:image" content="https://www.clinua.com/og.png"><meta name="twitter:card" content="summary_large_image">
 <script type="application/ld+json">{"@context":"https://schema.org","@type":"SoftwareApplication","name":"Clinua","applicationCategory":"BusinessApplication","operatingSystem":"Web","inLanguage":"es"}</script>
 </head><body>
@@ -41,10 +41,25 @@
 <tr><td>Configuración, usuarios y RGPD</td><td>✅</td><td>—</td><td>—</td><td>—</td></tr></table>
 <div class="g pr">
 <div class="c"><h3>Centro</h3><p class="price">45 €<small>/mes + IVA</small></p><ul><li>Hasta 3 profesionales con agenda</li><li>+9 € por profesional adicional</li><li>Recepción y administración sin coste</li><li>Honorarios por profesional y facturas a mutuas</li></ul><p><a class="btn o" href="#demo">Solicitar demo</a></p></div>
-<div class="c"><h3>Clínica</h3><p class="price">A medida</p><ul><li>Más de 8 profesionales o varios centros</li><li>Ayuda con la configuración inicial</li><li>Todo lo del plan Centro</li></ul><p><a class="btn o" href="#demo">Hablemos</a></p></div>
+<div class="c"><h3>Clínica</h3><p class="price">A medida</p><ul><li>Más de 8 profesionales o varios centros</li><li>Ayuda con la configuración inicial</li><li>Todo lo del plan Centro</li></ul><p><a class="btn o" href="#clinica">Hablemos</a></p></div>
 </div>
 <div id="demo" class="cta"><p>Te lo enseñamos con datos de ejemplo y te ayudamos a configurar tu centro.</p><p><a class="btn" href="mailto:info@clinua.com?subject=Demo%20Clinua">Solicitar demo por email</a></p><p>Escríbenos a <a href="mailto:info@clinua.com">info@clinua.com</a></p></div>
 </div></section>
+
+<section id="clinica" class="alt"><div class="w"><h2>Plan Clínica a medida</h2><p class="sub">Cuéntanos cómo es tu clínica y te preparamos una propuesta. Te respondemos en 1–2 días laborables.</p>
+<form id="f-clinica" class="form" novalidate>
+<div class="fr"><label for="fc-name">Nombre y apellidos *</label><input id="fc-name" name="name" autocomplete="name" required minlength="2" maxlength="120"></div>
+<div class="fr"><label for="fc-centre">Nombre de la clínica *</label><input id="fc-centre" name="centre" autocomplete="organization" required minlength="2" maxlength="160"></div>
+<div class="f2"><div class="fr"><label for="fc-email">Email *</label><input id="fc-email" name="email" type="email" autocomplete="email" required maxlength="200"></div>
+<div class="fr"><label for="fc-phone">Teléfono</label><input id="fc-phone" name="phone" type="tel" autocomplete="tel" maxlength="40"></div></div>
+<div class="f2"><div class="fr"><label for="fc-pros">Nº de profesionales</label><select id="fc-pros" name="professionals"><option value="">Elige</option><option>4–8</option><option>9–15</option><option>16–30</option><option>Más de 30</option></select></div>
+<div class="fr"><label for="fc-sites">Nº de centros</label><select id="fc-sites" name="sites"><option value="">Elige</option><option>1</option><option>2–3</option><option>4 o más</option></select></div></div>
+<div class="fr"><label for="fc-msg">¿Qué necesitas?</label><textarea id="fc-msg" name="message" rows="4" maxlength="3000" placeholder="Especialidades, si trabajáis con mutuas, de qué programa venís…"></textarea></div>
+<div class="hp" aria-hidden="true"><label for="fc-web">No rellenar</label><input id="fc-web" name="website" tabindex="-1" autocomplete="off"></div>
+<label class="chk"><input type="checkbox" name="privacy" required><span>He leído la <a href="privacidad.html">política de privacidad</a> y acepto que <span class="bn">Cli<span>nua</span></span> use estos datos para responder a mi solicitud. *</span></label>
+<p class="fmsg" role="status" aria-live="polite"></p>
+<button class="btn" type="submit">Enviar solicitud</button>
+</form></div></section>
 <section id="faq"><div class="w"><h2>Preguntas frecuentes</h2>
 <details><summary>¿Tengo que instalar algo?</summary><p>No. <span class="bn">Cli<span>nua</span></span> funciona en el navegador, en ordenador, tableta o móvil.</p></details>
 <details><summary>¿Dónde se guardan los datos?</summary><p>En servidores de la Unión Europea, con copias de seguridad cifradas diarias.</p></details>
@@ -54,4 +69,4 @@
 <details><summary>¿Qué pasa al acabar la prueba?</summary><p>Tus datos siguen guardados. Para seguir, activas el plan Autónomo (21 €/mes + IVA).</p></details><details><summary>¿Y si empiezo solo y luego contrato a alguien?</summary><p>Escríbenos y pasamos tu cuenta al plan Centro, con todos tus datos, para que puedas añadir a tu equipo.</p></details>
 </div></section>
 </main>
-<footer><div class="w"><p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="mailto:info@clinua.com">info@clinua.com</a><a href="https://app.clinua.com/login">Entrar</a></p><p>© 2026 <span class="bn">Cli<span>nua</span></span> · Software de gestión para profesionales sanitarios.</p></div></footer></body></html>
+<footer><div class="w"><p><a href="aviso-legal.html">Aviso legal</a><a href="privacidad.html">Privacidad</a><a href="cookies.html">Cookies</a><a href="mailto:info@clinua.com">info@clinua.com</a><a href="https://app.clinua.com/login">Entrar</a></p><p>© 2026 <span class="bn">Cli<span>nua</span></span> · Software de gestión para profesionales sanitarios.</p></div></footer><script src="contacto.js?v=1" defer></script></body></html>
