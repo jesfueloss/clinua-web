@@ -31,3 +31,5 @@ h1,h2,h3{letter-spacing:-.02em}.hero{padding:80px 0 72px;background:radial-gradi
 @media(max-width:860px){.hg{grid-template-columns:1fr}.mock{transform:none}}
 .sub{color:var(--mu);margin-top:-12px}.pr .c{display:flex;flex-direction:column}.pr ul{flex:1;margin:12px 0 18px}.price{font-size:2.2rem;font-weight:800;color:var(--tx)!important;margin:6px 0}.price small{font-size:.9rem;font-weight:500;color:var(--mu)}.pr .hl{border:2px solid var(--p)}
 .logo .lt{color:var(--tx)}.logo .lt span{color:var(--p)}
+
+.bn{white-space:nowrap}.bn span{color:var(--p)}
