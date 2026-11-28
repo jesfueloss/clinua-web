@@ -15,3 +15,7 @@ Al publicar cambios, avisa a los buscadores con:
 curl -s -o /dev/null -w '%{http_code}\n' -H 'Content-Type: application/json' https://api.indexnow.org/indexnow -d '{"host":"www.clinua.com","key":"b52bf0e8fce1a897dd5a7e5bdcb747b5","keyLocation":"https://www.clinua.com/b52bf0e8fce1a897dd5a7e5bdcb747b5.txt","urlList":["https://www.clinua.com/","https://www.clinua.com/software-fisioterapeutas","https://www.clinua.com/llms.txt"]}'
 ```
 Respuesta 200 o 202 = recibido.
+
+## Alojamiento
+La web se sirve desde **Cloudflare Pages** (proyecto `clinua-web`, rama `main`), porque la protección automática de Vercel desafiaba a los robots de ChatGPT y Google. `_headers` contiene las cabeceras de seguridad (las mismas que `vercel.json`). La redirección de clinua.com → www.clinua.com es una regla de Cloudflare.
+El proyecto de Vercel sigue existiendo: para volver, en el DNS de Cloudflare apunta `www` a `7a2c3725b875e19e.vercel-dns-017.com` y `@` a `216.198.79.1` (sin proxy).
