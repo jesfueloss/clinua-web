@@ -4,7 +4,7 @@
 
 ## Para quién
 - Fisioterapeutas autónomos (consulta propia, a domicilio o en varias clínicas)
-- Psicólogos, nutricionistas, podólogos, logopedas y otros profesionales sanitarios que pasan consulta por su cuenta
+- Psicólogos, nutricionistas, podólogos, logopedas, terapeutas ocupacionales, medicina estética y otros profesionales sanitarios que pasan consulta por su cuenta
 - Centros pequeños con varios profesionales (plan a medida)
 
 ## Funciones
@@ -25,3 +25,12 @@
 - [Preguntas frecuentes](https://www.clinua.com/#faq)
 - [Prueba gratis](https://app.clinua.com/registro)
 - Contacto: info@clinua.com
+
+## Páginas por profesión
+- [Fisioterapeutas](https://www.clinua.com/software-fisioterapeutas): Clinua para fisioterapeutas
+- [Psicólogos](https://www.clinua.com/software-psicologos): Clinua para psicólogos
+- [Nutricionistas](https://www.clinua.com/software-nutricionistas): Clinua para nutricionistas
+- [Logopedas](https://www.clinua.com/software-logopedas): Clinua para logopedas
+- [Podólogos](https://www.clinua.com/software-podologos): Clinua para podólogos
+- [Terapeutas ocupacionales](https://www.clinua.com/software-terapeutas-ocupacionales): Clinua para terapeutas ocupacionales
+- [Medicina estética](https://www.clinua.com/software-medicina-estetica): Clinua para medicina estética
