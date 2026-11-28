@@ -40,3 +40,7 @@ h1,h2,h3{letter-spacing:-.02em}.hero{padding:80px 0 72px;background:radial-gradi
 .form .chk{font-weight:400;display:flex;gap:8px;align-items:flex-start}.form .chk input{width:auto;margin-top:4px}
 .form .hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}.fmsg:empty{display:none}.fmsg.ok{color:var(--pd)}.fmsg.err{color:#b91c1c}
 .form button{justify-self:start}@media(max-width:600px){.form .f2{grid-template-columns:1fr}}
+
+.more{color:var(--mu);text-align:center;margin:28px auto 0;max-width:760px}
+.lead{font-size:1.1rem;color:var(--mu);max-width:760px}
+.checks{list-style:none;padding:0;margin:16px 0;display:grid;gap:10px}.checks li{padding-left:28px;position:relative}.checks li:before{content:'✓';position:absolute;left:0;color:var(--p);font-weight:800}
