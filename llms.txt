@@ -1,0 +1,27 @@
+# Clinua
+
+> Clinua es un software de gestión en la nube para fisioterapeutas, psicólogos y otros profesionales sanitarios autónomos en España: agenda con reserva online 24 horas, recordatorios automáticos, historia clínica, bonos de sesiones y facturas con VeriFactu. Plan Autónomo: 21 €/mes + IVA, sin permanencia, prueba gratis de 7 días sin tarjeta. Para centros con varios profesionales hay un plan a medida.
+
+## Para quién
+- Fisioterapeutas autónomos (consulta propia, a domicilio o en varias clínicas)
+- Psicólogos, nutricionistas, podólogos, logopedas y otros profesionales sanitarios que pasan consulta por su cuenta
+- Centros pequeños con varios profesionales (plan a medida)
+
+## Funciones
+- Agenda por día, semana, mes y lista; bloqueos, vacaciones y festivos
+- Reserva online 24 h con página propia del profesional; confirmación automática o manual
+- Recordatorio de cita por correo el día anterior; cancelaciones fuera de plazo y «No se presentó» con aviso en la siguiente cita
+- Alta del paciente por enlace (WhatsApp o email) con firma del consentimiento de protección de datos en el móvil
+- Historia clínica y notas de sesión (SOAP), PIN opcional por paciente, informes y justificantes con el logo del centro
+- Bonos de sesiones con descuento automático en cada cita
+- Facturación: factura por cita, mensual por paciente o manual; IVA, IRPF, rectificativas, envío por correo; VeriFactu con proveedor certificado
+- Panel con pacientes con tratamiento a medias y estadísticas del centro
+- RGPD: datos en la Unión Europea, copias cifradas diarias, registro de accesos, verificación en dos pasos
+
+## Enlaces
+- [Web](https://www.clinua.com/)
+- [Software para fisioterapeutas autónomos](https://www.clinua.com/software-fisioterapeutas)
+- [Precios](https://www.clinua.com/#precios)
+- [Preguntas frecuentes](https://www.clinua.com/#faq)
+- [Prueba gratis](https://app.clinua.com/registro)
+- Contacto: info@clinua.com
